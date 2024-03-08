@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python: example runner",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/example.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
