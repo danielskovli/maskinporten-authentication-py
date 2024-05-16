@@ -1,5 +1,5 @@
-# Maskinporten authentication library
-A small python module that simplifies authentication with Maskinporten, either via enterprise certificates or pre-registered keys.
+# Maskinporten authorization library
+A small python module that simplifies authorization with Maskinporten, either via enterprise certificates or pre-registered keys.
 
 More information about Maskinporten can be found here: https://samarbeid.digdir.no/maskinporten/maskinporten/25
 
@@ -8,7 +8,7 @@ More information about Maskinporten can be found here: https://samarbeid.digdir.
 - Packages as defined in [requirements.txt](requirements.txt)
 - A Maskinporten client integration for your target environment
 
-The Maskinporten client must be entitled to grant type `urn:ietf:params:oauth:grant-type:jwt-bearer`, with integration type `maskinporten` and authentication method `private_key_jwt`.
+The Maskinporten client must be entitled to grant type `urn:ietf:params:oauth:grant-type:jwt-bearer`, with integration type `maskinporten` and authorization method `private_key_jwt`.
 
 More Maskinporten help: [creating clients](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#opprette-klient-for-%C3%A5-konsumere-api), [registering keys](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#registrere-n%C3%B8kkel-p%C3%A5-klient), [enterprise certificates primer](https://info.altinn.no/en/help/profile/enterprise-certificate/what-are-enterprise-ceritificates) + [registering certificates](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#registrere-sertifikat-p%C3%A5-klient)
 
