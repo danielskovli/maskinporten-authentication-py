@@ -1,5 +1,5 @@
-# Maskinporten authorization library
-A small python module that simplifies authorization with Maskinporten, either via enterprise certificates or pre-registered keys.
+# Maskinporten authentication library
+A small python module that simplifies authentication and authorization with Maskinporten, either via enterprise certificates or pre-registered keys.
 
 More information about Maskinporten can be found here: https://samarbeid.digdir.no/maskinporten/maskinporten/25
 
