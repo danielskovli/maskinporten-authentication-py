@@ -1,7 +1,7 @@
 # Maskinporten authentication library
 A small python module that simplifies authentication and authorization with Maskinporten, either via enterprise certificates or pre-registered keys.
 
-More information about Maskinporten can be found here: https://samarbeid.digdir.no/maskinporten/maskinporten/25
+More information about Maskinporten can be found here: https://samarbeid.digdir.no/maskinporten/maskinporten/25.
 
 ## Requirements
 - A reasonably new version of Python
@@ -10,7 +10,7 @@ More information about Maskinporten can be found here: https://samarbeid.digdir.
 
 The Maskinporten client must be entitled to grant type `urn:ietf:params:oauth:grant-type:jwt-bearer`, with integration type `maskinporten` and authorization method `private_key_jwt`.
 
-More Maskinporten help: [creating clients](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#opprette-klient-for-%C3%A5-konsumere-api), [registering keys](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#registrere-n%C3%B8kkel-p%C3%A5-klient), [enterprise certificates primer](https://info.altinn.no/en/help/profile/enterprise-certificate/what-are-enterprise-ceritificates) + [registering certificates](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#registrere-sertifikat-p%C3%A5-klient)
+More Maskinporten help: [creating clients](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#opprette-klient-for-%C3%A5-konsumere-api), [registering keys](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#registrere-n%C3%B8kkel-p%C3%A5-klient), [enterprise certificates primer](https://info.altinn.no/en/help/profile/enterprise-certificate/what-are-enterprise-ceritificates) + [registering certificates](https://docs.digdir.no/docs/Maskinporten/maskinporten_sjolvbetjening_web#registrere-sertifikat-p%C3%A5-klient).
 
 ## Usage
 The [maskinporten_auth](maskinporten_auth) module exposes two primary methods: `authorize_enterprise_cert` and `authorize_key_pair`.
@@ -33,4 +33,4 @@ JWKS_KID=...
 # Common (space separated)
 SCOPES=scope1 scope2 scope3
 ```
-:information_source: Side note: The three available Maskinporten environments and associated authority URIs are defined in [config.py](maskinporten_auth/config.py)
+:information_source: Side note: The three available Maskinporten environments and associated authority URIs are defined in [config.py](maskinporten_auth/config.py).
