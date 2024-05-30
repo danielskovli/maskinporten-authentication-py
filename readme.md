@@ -6,7 +6,7 @@ More information about Maskinporten can be found here: https://samarbeid.digdir.
 ## Requirements
 - A reasonably new version of Python
 - Packages as defined in [requirements.txt](requirements.txt)
-- A Maskinporten client integration for your target environment
+- A Maskinporten client registered in your target environment
 
 The Maskinporten client must be entitled to grant type `urn:ietf:params:oauth:grant-type:jwt-bearer`, with integration type `maskinporten` and authorization method `private_key_jwt`.
 
